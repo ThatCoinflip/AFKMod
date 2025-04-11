@@ -1,5 +1,4 @@
 <h2>RoR2ReflectorMod</h2>
-<hr>
 <p>The mod currently adds:</p>
 <ul>
   <li>reflector</li>
@@ -11,7 +10,6 @@
 
 
 <h2>Item descibtion</h2>
-<hr>
 <ul>
   <li>
     <p><b>Reflector</b><br>
