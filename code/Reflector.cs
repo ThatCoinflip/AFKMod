@@ -8,6 +8,7 @@ namespace Reflector
     public static class Reflector
     {
         public static ItemDef reflector; // Define the item
+        public static float reflectorDamage = 0.2f;
 
         public static void Init()
         {
@@ -53,7 +54,7 @@ namespace Reflector
                 if (reflectorCount > 0)
                 {
                     // Calculate reflected damage (15% per item stack)
-                    float reflectedDamage = report.damageInfo.damage * (0.15f * reflectorCount);
+                    float reflectedDamage = report.damageInfo.damage * (reflectorDamage * reflectorCount);
 
                     // Minimum damage of 1
                     if (reflectedDamage < 1)
