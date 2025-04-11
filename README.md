@@ -12,4 +12,9 @@
 
 <h2>Item descibtion</h2>
 <hr>
-
+<ul>
+  <li>
+    <p style="font-weight:"bold"">Reflector</p>
+    <p>The reflector reflects 15% * stackcount to the attacker</p>
+  </li>
+</ul>
