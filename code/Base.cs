@@ -28,7 +28,8 @@ namespace Reflector
 
         private void Update()
         {
-            // Detect F2 key press
+            // Detect F2 key press for debugging purposes and testing 
+            /*
             if (Input.GetKeyDown(KeyCode.F2))
             {
                 // Get the player's position
@@ -42,6 +43,7 @@ namespace Reflector
                     playerTransform.forward * 20f
                 );
             }
+            */
         }
     }
 }
