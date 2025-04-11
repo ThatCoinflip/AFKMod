@@ -16,11 +16,11 @@ namespace Reflector
             reflector = ScriptableObject.CreateInstance<ItemDef>();
 
             // Basic item information
-            reflector.name = "REFLECTOR_NAME";
-            reflector.nameToken = "REFLECTOR_NAME";
-            reflector.pickupToken = "REFLECTOR_PICKUP";
-            reflector.descriptionToken = "REFLECTOR_DESC";
-            reflector.loreToken = "REFLECTOR_LORE";
+            reflector.name = "Hand Mirror";
+            reflector.nameToken = "Hand Mirror";
+            reflector.pickupToken = "Hand Mirror";
+            reflector.descriptionToken = "Uh....Shiney || reflect n*{reflectorDamage} when hit";
+            reflector.loreToken = "Everybody needs some self reflection";
 
             reflector._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Common/Tier1Def.asset").WaitForCompletion();
             reflector.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("RoR2/Base/Common/MiscIcons/texMysteryIcon.png").WaitForCompletion();
