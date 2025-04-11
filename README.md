@@ -14,7 +14,13 @@
 <hr>
 <ul>
   <li>
-    <p>Reflector <br>
+    <p><b>Reflector</b><br>
     The reflector reflects 15% * stackcount to the attacker</p>
+  </li>
+  <li>
+    <p>
+      <b>[item]</b> <br>
+      it doesn't exist
+    </p>
   </li>
 </ul>
