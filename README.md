@@ -13,7 +13,7 @@
 <ul>
   <li>
     <p><b>Reflector</b><br>
-    The reflector reflects 15% * stackcount to the attacker</p>
+    The reflector reflects 15% * stackcount of the damage taken to the attacker</p>
   </li>
   <li>
     <p>
