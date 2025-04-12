@@ -59,7 +59,7 @@ namespace AFKMod
         private void Update()
         {
             // Detect F2 key press
-            if (Input.GetKeyDown(KeyCode.F2))
+            /*if (Input.GetKeyDown(KeyCode.F2))
             {
                 // Get the player's position
                 var playerTransform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -71,7 +71,7 @@ namespace AFKMod
                     playerTransform.position,
                     playerTransform.forward * 20f
                 );
-            }
+            }*/
         }
     }
 }
