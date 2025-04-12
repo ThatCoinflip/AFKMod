@@ -19,7 +19,7 @@
   <li>
     <p>
       <b>Obelisk</b> <br>
-      stackcount * 10% to negate knockback
+      stackcount * 10% to negate knockback, if I woudn't be so stupid. So currently does nothing
     </p>
   </li>
   <li>
