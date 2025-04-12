@@ -15,14 +15,14 @@ namespace Reflector
             reflector = ScriptableObject.CreateInstance<ItemDef>();
 
             // Basic item information
-            reflector.name = "REFLECTOR_NAME";
-            reflector.nameToken = "REFLECTOR_NAME";
-            reflector.pickupToken = "REFLECTOR_PICKUP";
-            reflector.descriptionToken = "REFLECTOR_DESC";
-            reflector.loreToken = "REFLECTOR_LORE";
+            reflector.name = "Hand Mirror";
+            reflector.nameToken = "Hand Mirror";
+            reflector.pickupToken = "Hand Mirror";
+            reflector.descriptionToken = "Uh.... Shiney";
+            reflector.loreToken = "Need some self Reflection?";
 
             reflector._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Common/Tier1Def.asset").WaitForCompletion();
-            reflector.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("RoR2/Base/Common/MiscIcons/texMysteryIcon.png").WaitForCompletion();
+            reflector.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("Assets/Sprite/reflector.png").WaitForCompletion();
             reflector.pickupModelPrefab = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Mystery/PickupMystery.prefab").WaitForCompletion();
 
             reflector.canRemove = true;
