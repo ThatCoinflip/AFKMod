@@ -1,9 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
 using R2API;
+using R2API.Utils;
 using RoR2;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using AFKMod;
 
-namespace ImmovableObelisk
+namespace AFKMod.Item
 {
     public static class Obelisk
     {
@@ -20,11 +29,11 @@ namespace ImmovableObelisk
             obelisk.name = "Immoveable Obelisk";
             obelisk.nameToken = "Immoveable Obelisk";
             obelisk.pickupToken = "Immoveable Obelisk";
-            obelisk.descriptionToken = "Effect: Grants a n * 10% chance to negate knockback. Additionally, reduces the duration of stuns and freezes by 15% + n * 10%.";
+            obelisk.descriptionToken = "Grants a n * 10% chance to negate knockback. "; //Additionally, reduces the duration of stuns and freezes by 15% + n * 10%. ´that part does not work
             obelisk.loreToken = " Stand your ground with unyielding strength.";
 
             obelisk._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Uncommon/Tier2Def.asset").WaitForCompletion();
-            obelisk.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("Assets/Sprite/obelisk.png").WaitForCompletion();
+            obelisk.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("AFKMod/Item/Sprite/obelisk.png").WaitForCompletion();
             obelisk.pickupModelPrefab = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Mystery/PickupMystery.prefab").WaitForCompletion();
 
             obelisk.canRemove = true;
@@ -56,15 +65,15 @@ namespace ImmovableObelisk
                 {
                     // Calculate chance to negate knockback
                     float negateChance = baseChanceToNegateKnockback * obeliskCount;
-                    if (Random.value <= negateChance)
+                    if (UnityEngine.Random.value <= negateChance)
                     {
                         victimBody.SetFieldValue("negateKnockback", true);
                     }
 
-                    // Apply stun and freeze duration reduction
-                    victimBody.stunDuration *= (1 - (baseStunFreezeReduction + (obeliskCount * 0.1f)));
+                    // Apply stun and freeze duration reduction, need to fix
+                    // victimBody.stuneffect *= 1 - (baseStunFreezeReduction + obeliskCount * 0.1f);
 
-                    Debug.Log($"Immovable Obelisk effects applied: Negate chance = {negateChance * 100}%, Stun/Freeze reduction = {baseStunFreezeReduction + (obeliskCount * 0.1f) * 100}%.");
+                    Debug.Log($"Immovable Obelisk effects applied: Negate chance = {negateChance * 100}%, Stun/Freeze reduction = {baseStunFreezeReduction + obeliskCount * 0.1f * 100}%.");
                 }
             }
         }

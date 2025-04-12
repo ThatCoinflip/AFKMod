@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\ror2 mods\\afkmod\\afkmod\\afkmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\afkmod.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\ror2 mods\\afkmod\\afkmod\\item\\obelisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\item\\obelisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\ror2 mods\\afkmod\\afkmod\\item\\reflector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\item\\reflector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\ror2 mods\\afkmod\\afkmod\\afkmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\afkmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\ror2 mods\\afkmod\\afkmod\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AFKMod",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\AFKMod.csproj",
+              "RelativeDocumentMoniker": "AFKMod\\AFKMod.csproj",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\AFKMod.csproj",
+              "RelativeToolTip": "AFKMod\\AFKMod.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T12:23:48.59Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Base.cs",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\Base.cs",
+              "RelativeDocumentMoniker": "AFKMod\\Base.cs",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\Base.cs",
+              "RelativeToolTip": "AFKMod\\Base.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:19:24.058Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AFKMod",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\AFKMod.csproj",
+              "RelativeDocumentMoniker": "AFKMod\\AFKMod.csproj",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\AFKMod.csproj",
+              "RelativeToolTip": "AFKMod\\AFKMod.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T12:43:58.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Obelisk.cs",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\Item\\Obelisk.cs",
+              "RelativeDocumentMoniker": "AFKMod\\Item\\Obelisk.cs",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\Item\\Obelisk.cs",
+              "RelativeToolTip": "AFKMod\\Item\\Obelisk.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAYwCMAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:40:58.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reflector.cs",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\Item\\Reflector.cs",
+              "RelativeDocumentMoniker": "AFKMod\\Item\\Reflector.cs",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\Item\\Reflector.cs",
+              "RelativeToolTip": "AFKMod\\Item\\Reflector.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:40:03.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
