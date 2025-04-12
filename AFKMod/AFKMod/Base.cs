@@ -15,11 +15,12 @@ namespace AFKMod
     {
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "That.Coinflip";
-        public const string PluginName = "ReflectorPlugin";
-        public const string PluginVersion = "1.0.6";
+        public const string PluginName = "AFKMod";
+        public const string PluginVersion = "1.1.9";
 
         public void Awake()
         {
+            Logger.LogInfo("Start Initialisation process");
             Reflector.Init();
             Logger.LogInfo("Reflector item successfully initialized!");
 

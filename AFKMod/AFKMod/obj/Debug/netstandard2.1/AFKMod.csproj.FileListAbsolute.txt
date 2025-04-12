@@ -8,3 +8,14 @@ F:\001 Datei\002 Programme\ror2 mods\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKM
 F:\001 Datei\002 Programme\ror2 mods\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.csproj.CoreCompileInputs.cache
 F:\001 Datei\002 Programme\ror2 mods\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.dll
 F:\001 Datei\002 Programme\ror2 mods\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.pdb
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\bin\Debug\netstandard2.1\AFKMod.deps.json
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\bin\Debug\netstandard2.1\AFKMod.dll
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\bin\Debug\netstandard2.1\AFKMod.pdb
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.csproj.AssemblyReference.cache
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.GeneratedMSBuildEditorConfig.editorconfig
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.AssemblyInfoInputs.cache
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.AssemblyInfo.cs
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.csproj.CoreCompileInputs.cache
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.sourcelink.json
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.dll
+F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\obj\Debug\netstandard2.1\AFKMod.pdb
