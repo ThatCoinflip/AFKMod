@@ -16,16 +16,42 @@ namespace AFKMod
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "That.Coinflip";
         public const string PluginName = "AFKMod";
-        public const string PluginVersion = "1.1.9";
+        public const string PluginVersion = "1.1.10";
 
         public void Awake()
         {
-            Logger.LogInfo("Start Initialisation process");
-            Reflector.Init();
-            Logger.LogInfo("Reflector item successfully initialized!");
+            try
+            {
+                Logger.LogInfo("Awake method called. Starting initialization process.");
 
-            Obelisk.Init();
-            Logger.LogInfo("Immovable Obelisk item successfully initialized!");
+                // Initialize Reflector
+                Reflector.Init();
+                if (Reflector.reflector != null)
+                {
+                    Logger.LogInfo("Reflector initialization completed successfully.");
+                }
+                else
+                {
+                    Logger.LogError("Reflector is null. Initialization failed.");
+                }
+
+                // Initialize Obelisk
+                Obelisk.Init();
+                if (Obelisk.obelisk != null)
+                {
+                    Logger.LogInfo("Obelisk initialization completed successfully.");
+                }
+                else
+                {
+                    Logger.LogError("Obelisk is null. Initialization failed.");
+                }
+
+                Logger.LogInfo("Initialization process completed.");
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError($"Error during Awake initialization: {ex.Message}");
+            }
         }
 
         private void Update()

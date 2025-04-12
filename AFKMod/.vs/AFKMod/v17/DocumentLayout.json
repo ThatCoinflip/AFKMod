@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\item\\obelisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\item\\obelisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\item\\reflector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\item\\reflector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\item\\obelisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\item\\obelisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\lang\\en_lang.language||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\lang\\en_lang.language||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|solutionrelative:afkmod\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58137FED-7ACE-4EF3-B2A4-89A0D9D9EDBA}|AFKMod\\AFKMod.csproj|f:\\001 datei\\002 programme\\00 git\\ror2 mods\\ror2reflectormod\\afkmod\\afkmod\\afkmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AFKMod.csproj",
               "DocumentMoniker": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\AFKMod.csproj",
               "RelativeDocumentMoniker": "AFKMod\\AFKMod.csproj",
@@ -43,8 +47,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-12T12:23:48.59Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -54,7 +57,7 @@
               "RelativeDocumentMoniker": "AFKMod\\Base.cs",
               "ToolTip": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Base.cs",
               "RelativeToolTip": "AFKMod\\Base.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA4AAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwEoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T12:19:24.058Z",
               "IsPinned": true,
@@ -62,32 +65,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Log.cs",
               "DocumentMoniker": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Log.cs",
               "RelativeDocumentMoniker": "AFKMod\\Log.cs",
               "ToolTip": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Log.cs",
               "RelativeToolTip": "AFKMod\\Log.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T13:25:33.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Obelisk.cs",
-              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Item\\Obelisk.cs",
-              "RelativeDocumentMoniker": "AFKMod\\Item\\Obelisk.cs",
-              "ToolTip": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Item\\Obelisk.cs",
-              "RelativeToolTip": "AFKMod\\Item\\Obelisk.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T12:40:58.412Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -98,10 +85,42 @@
               "RelativeDocumentMoniker": "AFKMod\\Item\\Reflector.cs",
               "ToolTip": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Item\\Reflector.cs",
               "RelativeToolTip": "AFKMod\\Item\\Reflector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABZAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T12:40:03.714Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Obelisk.cs",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Item\\Obelisk.cs",
+              "RelativeDocumentMoniker": "AFKMod\\Item\\Obelisk.cs",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\Item\\Obelisk.cs",
+              "RelativeToolTip": "AFKMod\\Item\\Obelisk.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:40:58.412Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "en_lang.language",
+              "DocumentMoniker": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\lang\\en_lang.language",
+              "RelativeDocumentMoniker": "AFKMod\\lang\\en_lang.language",
+              "ToolTip": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\lang\\en_lang.language",
+              "RelativeToolTip": "AFKMod\\lang\\en_lang.language",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-12T16:45:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

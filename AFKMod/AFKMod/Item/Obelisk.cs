@@ -11,29 +11,48 @@ using RoR2;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using AFKMod;
+using System.Reflection;
 
 namespace AFKMod.Item
 {
     public static class Obelisk
     {
-        public static ItemDef obelisk; // Define the item
+        public static ItemDef obelisk = null!;  // Define the item
         public static float baseChanceToNegateKnockback = 0.1f; // Base chance to negate knockback
         public static float baseStunFreezeReduction = 0.15f; // Base reduction for stun/freeze duration
 
         public static void Init()
         {
+            Debug.Log("Starting Obelisk initialization...");
             // Create the ItemDef instance
             obelisk = ScriptableObject.CreateInstance<ItemDef>();
+            if (obelisk == null)
+            {
+                Debug.LogError("Obelisk instance could not be created!");
+                return;
+            }
 
             // Basic item information
-            obelisk.name = "Immoveable Obelisk";
-            obelisk.nameToken = "Immoveable Obelisk";
-            obelisk.pickupToken = "Immoveable Obelisk";
-            obelisk.descriptionToken = "Grants a n * 10% chance to negate knockback. "; //Additionally, reduces the duration of stuns and freezes by 15% + n * 10%. ´that part does not work
-            obelisk.loreToken = " Stand your ground with unyielding strength.";
+            obelisk.name = "Obelisk";
+            obelisk.nameToken = "IMMOVABLE_OBELISK_NAME";
+            obelisk.pickupToken = "IMMOVABLE_OBELISK_PICKUP";
+            obelisk.descriptionToken = "IMMOVABLE_OBELISK_DESC";
+            obelisk.loreToken = "IMMOVABLE_OBELISK_LORE";
 
-            obelisk._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Uncommon/Tier2Def.asset").WaitForCompletion();
-            obelisk.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("AFKMod/Item/Sprite/obelisk.png").WaitForCompletion();
+            //LanguageAPI.Add("IMMOVABLE_OBELISK_NAME", "Immovable Obelisk");
+            //LanguageAPI.Add("IMMOVABLE_OBELISK_PICKUP", "Grants 10% chance per stack to negate knockback.");
+            //LanguageAPI.Add("IMMOVABLE_OBELISK_DESC", "Grants 10% chance per stack to negate knockback.");
+            //LanguageAPI.Add("IMMOVABLE_OBELISK_LORE", "Stand your ground with unyielding strength.");
+
+            var fieldInfo = typeof(ItemDef).GetField("_itemTierDef", BindingFlags.Instance | BindingFlags.NonPublic);
+            fieldInfo.SetValue(obelisk, Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Common/Tier2Def.asset").WaitForCompletion());
+
+            if (fieldInfo == null)
+            {
+                Debug.LogError("_itemTierDef field not found in ItemDef.");
+            }
+
+            obelisk.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("RoR2/Base/Common/MiscIcons/texMysteryIcon.png").WaitForCompletion();
             obelisk.pickupModelPrefab = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Mystery/PickupMystery.prefab").WaitForCompletion();
 
             obelisk.canRemove = true;
@@ -42,10 +61,19 @@ namespace AFKMod.Item
             var displayRules = new ItemDisplayRuleDict(null);
             ItemAPI.Add(new CustomItem(obelisk, displayRules));
 
+            ItemCatalog.availability.CallWhenAvailable(() =>
+            {
+                Debug.Log($"Reflector Item Index after catalog availability: {obelisk.itemIndex}");
+            });
+
+            Debug.Log($"Obelisk Item Index: {obelisk.itemIndex}");
+
+            PickupCatalog.FindPickupIndex(obelisk.itemIndex);
+
             // Hook the OnDamageTaken method to the onServerDamageDealt event
             GlobalEventManager.onServerDamageDealt += ApplyObeliskEffects;
 
-            Debug.Log("Immovable Obelisk item successfully initialized!");
+            Debug.Log($"Reflector initialization complete. Item Index: {obelisk.itemIndex}");
         }
 
         private static void ApplyObeliskEffects(DamageReport report)
