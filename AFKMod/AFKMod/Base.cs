@@ -36,6 +36,7 @@ namespace AFKMod
                 }
 
                 // Initialize Obelisk
+                /*
                 Obelisk.Init();
                 if (Obelisk.obelisk != null)
                 {
@@ -45,6 +46,7 @@ namespace AFKMod
                 {
                     Logger.LogError("Obelisk is null. Initialization failed.");
                 }
+                */
 
                 Logger.LogInfo("Initialization process completed.");
             }
