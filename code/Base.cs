@@ -28,6 +28,7 @@ namespace Reflector
 
         private void Update()
         {
+
             // Detect F2 key press
          if (Input.GetKeyDown(KeyCode.F2))
             {

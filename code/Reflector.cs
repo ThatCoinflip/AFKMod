@@ -23,7 +23,7 @@ namespace Reflector
             reflector.loreToken = "Everybody needs some self reflection";
 
             reflector._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Common/Tier1Def.asset").WaitForCompletion();
-            reflector.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("RoR2/Base/Common/MiscIcons/texMysteryIcon.png").WaitForCompletion();
+            reflector.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("Assets/Sprite/reflector.png").WaitForCompletion();
             reflector.pickupModelPrefab = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Mystery/PickupMystery.prefab").WaitForCompletion();
 
             reflector.canRemove = true;
