@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = AFKMod
-build_property.ProjectDir = F:\001 Datei\002 Programme\ror2 mods\AFKMod\AFKMod\
+build_property.ProjectDir = F:\001 Datei\002 Programme\00 git\ror2 mods\RoR2ReflectorMod\AFKMod\AFKMod\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

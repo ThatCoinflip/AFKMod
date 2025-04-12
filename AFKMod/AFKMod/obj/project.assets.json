@@ -2961,11 +2961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\AFKMod.csproj",
+      "projectUniqueName": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\AFKMod.csproj",
       "projectName": "AFKMod",
-      "projectPath": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\AFKMod.csproj",
+      "projectPath": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\AFKMod.csproj",
       "packagesPath": "C:\\Users\\Yannick\\.nuget\\packages\\",
-      "outputPath": "F:\\001 Datei\\002 Programme\\ror2 mods\\AFKMod\\AFKMod\\obj\\",
+      "outputPath": "F:\\001 Datei\\002 Programme\\00 git\\ror2 mods\\RoR2ReflectorMod\\AFKMod\\AFKMod\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2998,7 +2998,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "netstandard2.1": {
@@ -3055,7 +3056,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
