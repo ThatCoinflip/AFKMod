@@ -16,7 +16,7 @@ namespace AFKMod
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "That.Coinflip";
         public const string PluginName = "AFKMod";
-        public const string PluginVersion = "1.1.10";
+        public const string PluginVersion = "1.2.0";
 
         public void Awake()
         {
