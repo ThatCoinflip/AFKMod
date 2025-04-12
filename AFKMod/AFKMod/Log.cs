@@ -11,7 +11,7 @@ namespace AFKMod
 {
     internal static class Log
     {
-        private static ManualLogSource _logSource;
+        private static ManualLogSource _logSource = null!;
 
         internal static void Init(ManualLogSource logSource)
         {
