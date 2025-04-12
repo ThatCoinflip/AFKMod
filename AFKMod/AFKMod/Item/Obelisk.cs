@@ -12,6 +12,8 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using AFKMod;
 using System.Reflection;
+using EntityStates.ArtifactShell;
+using UnityEngine.Networking;
 
 namespace AFKMod.Item
 {
@@ -20,6 +22,8 @@ namespace AFKMod.Item
         public static ItemDef obelisk = null!;  // Define the item
         public static float baseChanceToNegateKnockback = 0.1f; // Base chance to negate knockback
         public static float baseStunFreezeReduction = 0.15f; // Base reduction for stun/freeze duration
+        private static float originalKnockBackForce = Hurt.knockbackForce;
+        private static float originalknockbackLiftForce = Hurt.knockbackLiftForce;
 
         public static void Init()
         {
@@ -78,30 +82,54 @@ namespace AFKMod.Item
 
         private static void ApplyObeliskEffects(DamageReport report)
         {
-            // Ensure valid victim and attacker information
-            if (report == null || report.victimBody == null) return;
-
-            // Get the victim's body and inventory
-            var victimBody = report.victimBody;
-            var inventory = victimBody.inventory;
-
-            // Check if the victim has the Immovable Obelisk item
-            if (inventory != null)
+            if (report == null)
             {
-                int obeliskCount = inventory.GetItemCount(obelisk.itemIndex);
-                if (obeliskCount > 0)
+                Debug.LogWarning("DamageReport is null.");
+                return;
+            }
+
+            var victimBody = report.victimBody;
+            if (victimBody == null)
+            {
+                Debug.LogWarning("Victim body is null.");
+                return;
+            }
+
+            var inventory = victimBody.inventory;
+            if (inventory == null)
+            {
+                Debug.LogWarning("Inventory is null.");
+                return;
+            }
+
+            int obeliskCount = inventory.GetItemCount(obelisk.itemIndex);
+            if (obeliskCount > 0)
+            {
+                Debug.Log($"Applying Immovable Obelisk effects. Item count: {obeliskCount}");
+
+                float negateChance = baseChanceToNegateKnockback * obeliskCount;
+                if (UnityEngine.Random.value <= negateChance)
                 {
-                    // Calculate chance to negate knockback
-                    float negateChance = baseChanceToNegateKnockback * obeliskCount;
-                    if (UnityEngine.Random.value <= negateChance)
-                    {
-                        victimBody.SetFieldValue("negateKnockback", true);
-                    }
+                    Hurt.knockbackForce = Hurt.knockbackForce * 0;
+                    Hurt.knockbackLiftForce = Hurt.knockbackLiftForce * 0;
 
-                    // Apply stun and freeze duration reduction, need to fix
-                    // victimBody.stuneffect *= 1 - (baseStunFreezeReduction + obeliskCount * 0.1f);
+                    //victimBody.SetFieldValue("negateKnockback", true); Nope, doesnt work
+                    Debug.Log($"Knockback negated with {negateChance * 100}% chance. Knockbackforce: {Hurt.knockbackForce}, Knockbackliftforce: {Hurt.knockbackLiftForce}");
+                }
 
-                    Debug.Log($"Immovable Obelisk effects applied: Negate chance = {negateChance * 100}%, Stun/Freeze reduction = {baseStunFreezeReduction + obeliskCount * 0.1f * 100}%.");
+                // Reduce duration of stun and freeze buffs
+                //    var buffReductionFactor = 1 - (baseStunFreezeReduction + obeliskCount * 0.1f);
+                //    foreach (var buff in victimBody.activeBuffsList)
+                //    {
+                //        if (IsStunOrFreezeBuff(buff))
+                //        {
+                //            victimBody.SetBuffCount(buff.buffIndex, Mathf.FloorToInt(buff.buffCount * buffReductionFactor));
+                //            Debug.Log($"Reduced buff {buff.buffName} duration by {buffReductionFactor * 100}%.");
+                //        }
+                //    }
+                else
+                {
+                    Debug.Log("No Immovable Obelisk items found in inventory.");
                 }
             }
         }
