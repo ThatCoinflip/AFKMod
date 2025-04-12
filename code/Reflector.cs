@@ -8,6 +8,7 @@ namespace Reflector
     public static class Reflector
     {
         public static ItemDef reflector; // Define the item
+        public static float reflectorDamage = 0.2f;
 
         public static void Init()
         {
@@ -18,8 +19,8 @@ namespace Reflector
             reflector.name = "Hand Mirror";
             reflector.nameToken = "Hand Mirror";
             reflector.pickupToken = "Hand Mirror";
-            reflector.descriptionToken = "Uh.... Shiney";
-            reflector.loreToken = "Need some self Reflection?";
+            reflector.descriptionToken = "Uh....Shiney || reflect n*{reflectorDamage} when hit";
+            reflector.loreToken = "Everybody needs some self reflection";
 
             reflector._itemTierDef = Addressables.LoadAssetAsync<ItemTierDef>("RoR2/Base/Common/Tier1Def.asset").WaitForCompletion();
             reflector.pickupIconSprite = Addressables.LoadAssetAsync<Sprite>("Assets/Sprite/reflector.png").WaitForCompletion();
@@ -53,7 +54,7 @@ namespace Reflector
                 if (reflectorCount > 0)
                 {
                     // Calculate reflected damage (15% per item stack)
-                    float reflectedDamage = report.damageInfo.damage * (0.15f * reflectorCount);
+                    float reflectedDamage = report.damageInfo.damage * (reflectorDamage * reflectorCount);
 
                     // Minimum damage of 1
                     if (reflectedDamage < 1)
