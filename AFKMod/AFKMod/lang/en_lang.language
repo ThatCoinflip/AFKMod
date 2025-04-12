@@ -1,19 +1,24 @@
 {
   "strings": {
-    "HAND_MIRROR_NAME": "Hand Mirror",
-    "HAND_MIRROR_PICKUP": "Reflects damage taken back to attackers.",
-    "HAND_MIRROR_DESC": "Reflects 20% of the damage taken back to the attacker.",
-    "HAND_MIRROR_LORE": "In need of some self-reflection.",
-    "IMMOVABLE_OBELISK_NAME": "Immovable Obelisk",
-    "IMMOVABLE_OBELISK_PICKUP": "Grants 10% chance per stack to negate knockback.",
-    "IMMOVABLE_OBELISK_DESC": "Grants 10% chance per stack to negate knockback.",
-    "IMMOVABLE_OBELISK_LORE": "Stand your ground with unyielding strength."
-  },
-  "FR": {
-    "TOKEN1": "French Hustling Fungus",
-    "TOKEN_WHATEVER": "TEST VALUE FOR FRENCH LANGUAGE"
-  },
-  "en": {
-    "TOKEN1": "English Hustling Fungus"
+    "en": {
+      "HAND_MIRROR_NAME": "Hand Mirror",
+      "HAND_MIRROR_PICKUP": "Reflects damage taken back to attackers.",
+      "HAND_MIRROR_DESC": "Reflects 20% of the damage taken back to the attacker.",
+      "HAND_MIRROR_LORE": "In need of some self-reflection.",
+      "IMMOVABLE_OBELISK_NAME": "Immovable Obelisk",
+      "IMMOVABLE_OBELISK_PICKUP": "Grants 10% chance per stack to negate knockback.",
+      "IMMOVABLE_OBELISK_DESC": "Grants 10% chance per stack to negate knockback.",
+      "IMMOVABLE_OBELISK_LORE": "Stand your ground with unyielding strength."
+    },
+    "de": {
+      "HAND_MIRROR_NAME": "Handspiegel",
+      "HAND_MIRROR_PICKUP": "Reflektiert den erlittenen Schaden zurück auf Angreifer.",
+      "HAND_MIRROR_DESC": "Reflektiert 20 % des erlittenen Schadens zurück auf den Angreifer.",
+      "HAND_MIRROR_LORE": "Zeit für ein wenig Selbstreflexion.",
+      "IMMOVABLE_OBELISK_NAME": "Unbeweglicher Obelisk",
+      "IMMOVABLE_OBELISK_PICKUP": "Gewährt eine 10%ige Chance pro Stapel, Rückstoß zu negieren.",
+      "IMMOVABLE_OBELISK_DESC": "Gewährt eine 10%ige Chance pro Stapel, Rückstoß zu negieren.",
+      "IMMOVABLE_OBELISK_LORE": "Stehe fest mit unerschütterlicher Stärke."
+    }
   }
 }

@@ -35,6 +35,16 @@ namespace AFKMod
                     Logger.LogError("Reflector is null. Initialization failed.");
                 }
 
+                try
+                {
+                    Languages.Init();
+                    Logger.LogInfo("Language files loaded successfully.");
+                }
+                catch (Exception ex)
+                {
+                    Logger.LogError($"Language initialization failed: {ex.Message}");
+                }
+
                 // Initialize Obelisk
                 /*
                 Obelisk.Init();
